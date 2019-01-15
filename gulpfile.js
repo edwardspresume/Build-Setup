@@ -22,6 +22,7 @@ const browserSync = require("browser-sync").create();
 
 
 const options = {
+
   htmlmin: {
     minifyJS: true,
     minifyCSS: true,
@@ -48,6 +49,7 @@ const options = {
   sourcemapsWrite: {
     addComment: false
   }
+
 };
 
 
@@ -57,6 +59,7 @@ const options = {
 
 
 const paths = {
+
   html: {
     src: "src/*.html",
     dest: "build",
@@ -81,6 +84,7 @@ const paths = {
   sourcemaps: {
     src: "../maps"
   }
+
 };
 
 
