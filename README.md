@@ -11,7 +11,7 @@ General web development build and workflow.
 
 ## Setup
 
-First, download or clone this repository
+First, download or clone this repository.
 
 Then install the dev dependencies from the package.json through:
 
@@ -27,14 +27,14 @@ Remove any unwanted packages by simply removing it from the package.json prior t
 $ npm uninstall <package_name>
 ```
 
-Note that if you are to remove a package that is being utilized, you would have to modify the `gulpfile` and remove that packages function within it's designated task.
+Note that if you are to remove a package that is being utilized, you would have to modify the `gulpfile.js` and remove that packages function within it's designated task.
 
 &nbsp;
 
 Run `gulp` to initiate the specified tasks.
 
 ```
-$ npm gulp
+$ gulp
 ```
 
 &nbsp;
