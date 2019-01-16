@@ -20,6 +20,8 @@ Remove any unwanted packages by simply removing it from the package.json prior t
 $ npm uninstall <package_name>
 ```
 
+Note that if you are to remove a package that is being utilized, you would have to modify the `gulpfile` and remove that packages function in the designated task.
+
 &nbsp;
 
 Run `gulp` to initiate the specified tasks.
