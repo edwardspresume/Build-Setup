@@ -2,6 +2,8 @@
 
 General web development build
 
+&nbsp;
+
 ## Setup:
 
 Install the dev dependencies from the package.json through:
@@ -28,4 +30,4 @@ $ npm gulp
 
 &nbsp;
 
-Finally open up the `src` folder to construct your web site/application and a build folder will be generated and built upon through out your process to be shipped for production. Happy coding :)
+Finally open up the `src` folder to construct your web site/application, and a build folder will be generated, and built upon through out your process to be shipped for production. Happy coding :)
