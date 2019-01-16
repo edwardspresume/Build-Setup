@@ -1,12 +1,19 @@
 # Build-Setup
 
-General web development build
+General web development build and workflow.
 
 &nbsp;
 
-## Setup:
+## Overview
 
-Install the dev dependencies from the package.json through:
+...
+&nbsp;
+
+## Setup
+
+First, download or clone this repository
+
+Then install the dev dependencies from the package.json through:
 
 ```
 $ npm i/install
@@ -20,7 +27,7 @@ Remove any unwanted packages by simply removing it from the package.json prior t
 $ npm uninstall <package_name>
 ```
 
-Note that if you are to remove a package that is being utilized, you would have to modify the `gulpfile` and remove that packages function in the designated task.
+Note that if you are to remove a package that is being utilized, you would have to modify the `gulpfile` and remove that packages function within it's designated task.
 
 &nbsp;
 
