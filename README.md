@@ -10,22 +10,14 @@ This repository servers as a template for your development process by automating
 
 By default, the `gulpfile.js` has the following tasks:
 
-- **compileMarkup**: Minify your html files.
-- **compileStyle**: Convert and minify your `scss` files to `css` with added prefixes and generate a `sourcemaps`.
-- **compileScript**: Concat and minify your `javascript` files.
-- **compileImages**: Minify and optimize your images.
-- **startServer**: Initiate a server
-- **watchFiles**: monitor your source files and update the build base on changes.
-
-
-| Task            | Description                                                                                    |
-| --------------- | ---------------------------------------------------------------------------------------------- |
-| `compileMarkup` | Minify your html files.                                                                        |
-| `compileStyle`  | Convert and minify your `scss` files to `css` with added prefixes and generate a `sourcemaps`. |
-| `compileScript` | Concat and minify your `javascript` files.                                                     |
-| `compileImages` | Minify your images through optimization                                                        |
-| `startServer`   | Initiate a server                                                                              |
-| `watchFiles`    | monitor your source files and update the build base on changes.                                |
+| Tasks           | Description                                                                              |
+| --------------- | ---------------------------------------------------------------------------------------- |
+| `compileMarkup` | Minify your html files.                                                                  |
+| `compileStyle`  | Convert and minify your scss files to css with added prefixes and generate a sourcemaps. |
+| `compileScript` | Concat and minify your javascript files.                                                 |
+| `compileImages` | Minify your images through optimization                                                  |
+| `startServer`   | Initiate a server                                                                        |
+| `watchFiles`    | monitor your source files and update the build base on changes.                          |
 
 
 
