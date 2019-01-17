@@ -10,14 +10,14 @@ This repository servers as a template for your development process by automating
 
 By default, the `gulpfile.js` has the following tasks:
 
-| Tasks           | Description                                                                              |
-| --------------- | ---------------------------------------------------------------------------------------- |
-| `compileMarkup` | Minify your html files.                                                                  |
-| `compileStyle`  | Convert and minify your scss files to css with added prefixes and generate a sourcemaps. |
-| `compileScript` | Concat and minify your javascript files.                                                 |
-| `compileImages` | Minify your images through optimization                                                  |
-| `startServer`   | Initiate a server                                                                        |
-| `watchFiles`    | monitor your source files and update the build base on changes.                          |
+| Tasks           | Description                                                                             |
+| --------------- | --------------------------------------------------------------------------------------- |
+| `compileMarkup` | Minify your html files.                                                                 |
+| `compileStyle`  | Convert and minify your scss files to css with added prefixes and generate a sourcemap. |
+| `compileScript` | Concat and minify your javascript files.                                                |
+| `compileImages` | Minify your images through optimization.                                                |
+| `startServer`   | Initiate a server.                                                                      |
+| `watchFiles`    | Monitor your source files and update the build folder base on changes.                  |
 
 
 
@@ -29,13 +29,15 @@ By default, the `gulpfile.js` has the following tasks:
 
 First, download or clone this repository.
 
-Ensure that you you have `gulp-cli` installed globally to be able to run the `gulp` command in your terminal
+Then ensure that you you have `gulp-cli` installed globally to be able to run the `gulp` command in your terminal.
 
 ```
 npm i/install gulp-cli -g
 ```
 
-Then install the dev dependencies from the package.json through:
+&nbsp;
+
+Next install the dev dependencies from the package.json through:
 
 ```
 $ npm i/install
@@ -53,7 +55,7 @@ Note that if you are to remove a package that is being utilized, you would have 
 
 &nbsp;
 
-Run `gulp` to initiate the specified tasks.
+Run `gulp` to commence the specified tasks.
 
 ```
 $ gulp
