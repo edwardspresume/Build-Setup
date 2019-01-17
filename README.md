@@ -6,14 +6,14 @@ General web development build and workflow.
 
 ## Overview
 
-This repository servers as a template for your development process by automating certain tasks through the use of [gulp](https://gulpjs.com/).
+This repository serves as a template for your development process by automating certain tasks through the use of [gulp](https://gulpjs.com/).
 
 By default, the `gulpfile.js` in this repo has the following tasks:
 
 | Tasks           | Description                                                                                |
 | --------------- | ------------------------------------------------------------------------------------------ |
-| `compileMarkup` | Minify your html files.                                                                    |
-| `compileStyle`  | Convert and minify your scss files to css with added prefixes and generate a sourcemap.    |
+| `compileMarkup` | Minify your HTML files.                                                                    |
+| `compileStyle`  | Convert and minify your SCSS files to CSS with added prefixes and generate a source map.    |
 | `compileScript` | Concat and minify your javascript files.                                                   |
 | `compileImages` | Minify your images.                                                   |
 | `startServer`   | Initiate a server.                                                                         |
@@ -29,7 +29,7 @@ By default, the `gulpfile.js` in this repo has the following tasks:
 
 First, download or clone this repository.
 
-Then ensure that you you have `gulp-cli` installed globally to be able to run the `gulp` command in your terminal.
+Then ensure that you have `gulp-cli` installed globally to be able to run the `gulp` command in your terminal.
 
 ```
 $ npm i/install gulp-cli -g
@@ -37,7 +37,7 @@ $ npm i/install gulp-cli -g
 
 &nbsp;
 
-Next install the dev dependencies from the package.json through:
+Next, install the dev dependencies from the package.json through:
 
 ```
 $ npm i/install
@@ -45,7 +45,7 @@ $ npm i/install
 
 &nbsp;
 
-Remove any unwanted packages by simply removing it from the package.json prior to the installing above. Or by running the command below after installing the packages from the json.
+Remove any unwanted packages by simply removing it from the package.json prior to the installing above. Or by running the command below after installing the packages from the JSON.
 
 ```
 $ npm uninstall <package_name>
@@ -63,4 +63,4 @@ $ gulp
 
 &nbsp;
 
-Finally open up the `src` folder to construct your web site/application, and a build folder will be generated, and built upon through out your process to be shipped for production. Happy coding :)
+Finally, open up the `src` folder to construct your web site/application, and a build folder will be generated, and built upon throughout your process to be shipped for production. Happy coding :)
