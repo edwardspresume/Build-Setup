@@ -8,16 +8,16 @@ General web development build and workflow.
 
 This repository servers as a template for your development process by automating certain tasks through the use of [gulp](https://gulpjs.com/).
 
-By default, the `gulpfile.js` has the following tasks:
+By default, the `gulpfile.js` in this repo has the following tasks:
 
 | Tasks           | Description                                                                                |
 | --------------- | ------------------------------------------------------------------------------------------ |
 | `compileMarkup` | Minify your html files.                                                                    |
 | `compileStyle`  | Convert and minify your scss files to css with added prefixes and generate a sourcemap.    |
 | `compileScript` | Concat and minify your javascript files.                                                   |
-| `compileImages` | Minify your images through optimization.                                                   |
+| `compileImages` | Minify your images.                                                   |
 | `startServer`   | Initiate a server.                                                                         |
-| `watchFiles`    | Monitor your source files and update the build folder base upon any changes that are made. |
+| `watchFiles`    | Monitor your source files and reload browser automatically whenever a file is saved. |
 
 
 
@@ -32,7 +32,7 @@ First, download or clone this repository.
 Then ensure that you you have `gulp-cli` installed globally to be able to run the `gulp` command in your terminal.
 
 ```
-npm i/install gulp-cli -g
+$ npm i/install gulp-cli -g
 ```
 
 &nbsp;
