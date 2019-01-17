@@ -10,14 +10,14 @@ This repository servers as a template for your development process by automating
 
 By default, the `gulpfile.js` has the following tasks:
 
-| Tasks           | Description                                                                             |
-| --------------- | --------------------------------------------------------------------------------------- |
-| `compileMarkup` | Minify your html files.                                                                 |
-| `compileStyle`  | Convert and minify your scss files to css with added prefixes and generate a sourcemap. |
-| `compileScript` | Concat and minify your javascript files.                                                |
-| `compileImages` | Minify your images through optimization.                                                |
-| `startServer`   | Initiate a server.                                                                      |
-| `watchFiles`    | Monitor your source files and update the build folder base on changes.                  |
+| Tasks           | Description                                                                                |
+| --------------- | ------------------------------------------------------------------------------------------ |
+| `compileMarkup` | Minify your html files.                                                                    |
+| `compileStyle`  | Convert and minify your scss files to css with added prefixes and generate a sourcemap.    |
+| `compileScript` | Concat and minify your javascript files.                                                   |
+| `compileImages` | Minify your images through optimization.                                                   |
+| `startServer`   | Initiate a server.                                                                         |
+| `watchFiles`    | Monitor your source files and update the build folder base upon any changes that are made. |
 
 
 
