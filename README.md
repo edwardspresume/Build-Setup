@@ -8,7 +8,7 @@ General web development build and workflow.
 
 This repository serves as a template for your development process by automating certain tasks through the use of [gulp](https://gulpjs.com/).
 
-By default, the `gulpfile.js` in this repo has the following tasks:
+By default, the `gulpfile.js` in this repo contains the following tasks:
 
 | Tasks           | Description                                                                                |
 | --------------- | ------------------------------------------------------------------------------------------ |
