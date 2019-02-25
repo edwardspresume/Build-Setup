@@ -13,6 +13,7 @@ const imagemin = require('gulp-imagemin');
 const cleanCSS = require('gulp-clean-css');
 const sourcemaps = require('gulp-sourcemaps');
 const autoprefixer = require('gulp-autoprefixer');
+const lec = require('gulp-line-ending-corrector');
 const browserSync = require('browser-sync').create();
 
 
@@ -97,6 +98,7 @@ const paths = {
 const compileMarkup = () => gulp
   .src(paths.html.src)
   .pipe(htmlmin(options.htmlmin))
+  .pipe(lec())
   .pipe(gulp.dest(paths.html.dest))
   .pipe(browserSync.stream());
 
@@ -109,6 +111,7 @@ const compileStyle = () => gulp
   .pipe(cleanCSS(options.cleanCSS))
   .pipe(rename('main.min.css'))
   .pipe(sourcemaps.write('./'))
+  .pipe(lec())
   .pipe(gulp.dest(paths.styles.dest))
   .pipe(browserSync.stream());
 
@@ -117,6 +120,7 @@ const compileScript = () => gulp
   .src(paths.scripts.src)
   .pipe(concat('main.min.js'))
   .pipe(uglify())
+  .pipe(lec())
   .pipe(gulp.dest(paths.scripts.dest))
   .pipe(browserSync.stream());
 
